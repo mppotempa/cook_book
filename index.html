@@ -10,6 +10,9 @@
     <title>Git Cooking</title>
     <!-- resets browser defaults -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- carousel styles -->
+    <link rel="stylesheet" href="plugins/owl_carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl_carousel/assets/owl.theme.default.min.css">
     <!-- custom styles -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -35,16 +38,75 @@
     </nav>
     <main>
         <section>
+            <div class="owl-carousel owl-theme">
+                <div>
+                    <img src="https://via.placeholder.com/150x120" alt="null">
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150x120" alt="null">
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150x120" alt="null">
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150x120" alt="null">
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150x120" alt="null">
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150x120" alt="null">
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150x120" alt="null">
+                </div>
+              </div>
+        </section>
+        <section>
             <h2>About</h2>
             <img src="https://via.placeholder.com/150x120">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </section>
-
-        
+        <section>
+            <h2>Summer Picks</h2>
+            <div>
+                <article>
+                    <a href="recipes.html">
+                        <figure>
+                            <img src="https://via.placeholder.com/150x120" alt="null">
+                        </figure>
+                        <h3>Yummy Food Name</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="recipes.html">
+                        <figure>
+                            <img src="https://via.placeholder.com/150x120" alt="null">
+                        </figure>
+                        <h3>Yummy Food Name</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="recipes.html">
+                        <figure>
+                            <img src="https://via.placeholder.com/150x120" alt="null">
+                        </figure>
+                        <h3>Yummy Food Name</h3>
+                    </a>
+                </article>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="plugins/owl_carousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
 </body>
 </html>
